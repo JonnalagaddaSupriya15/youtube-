@@ -45,44 +45,42 @@ Ensure you have the following installed on your system:
 
 ## How to Set Up the Project
 
-1. **Clone the Repository**
-   ```bash
-   git clone https://github.com/abdul-kadir-uk/YoutubeClone.git
-   ```
+1. Clone the Repository
+bash
+   
 
-2. **Change directory to youtube clone** 
-   ```bash
+2. Change directory to youtube clone
+   bash
    cd YoutubeClone
-   ```
+  
 
-3. **Install the required dependencies**
-   ```bash
+3. Install the required dependencies
+   bash
    npm install
-   ```
+   
 
-4. **Open new terminal and move to backend**
-   ```bash
+4. Open new terminal and move to backend
+   bash
    cd backend
-   ```
+   
 
-5. **create .env file and gives these details**
-   ```bash
+5. create .env file and gives these details
+   bash
    MONGODB_URI=YOUR_MONGODB_URI
    PORT=PORT_NUMBER
    SECRET_KEY=YOUR_SECRET_KEY
-   ```
+   
 
-6. **install the required dependencies of backend**
-   ```bash
+6.install the required dependencies of backend
+`bash
    npm install
-   ```
 
-7. **Start the server**
-   ```bash
+
+7Start the server
+   bash
    npm start
-   ```
+ 
 
-8. **Now In Previous Terminal Run The Application And Enjoy It**
-    ```bash
-    npm run dev
-    ```
+8. Now In Previous Terminal Run The Application And Enjoy It
+bash
+npm run dev

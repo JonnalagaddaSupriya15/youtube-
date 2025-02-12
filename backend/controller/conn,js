@@ -1,0 +1,5 @@
+import mongoose from "mongoose";
+
+ export const mongooseConnection = mongoose.connect("mongodb+srv://jonnalagaddasupraja12:<db_password>@youtubeclone.qxd9r.mongodb.net/")
+    .then(()=> console.log("DB connection successful"))
+    .catch(err=>{console.log(err)});
